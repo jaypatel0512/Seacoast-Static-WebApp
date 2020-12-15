@@ -43,71 +43,117 @@
     </header>
 
     <main>
+        
 
         <div class="review-page">
             <div class="rev-section">
 
                 <h2 class="title">Our Guests Love Us</h2>
-
+                <div id="btn">
+                    <div class="btn-group">
+                        <button onclick="sortTable()">Sort by High to Low</button>
+                     </div>
+                </div> 
 
                 <div class="reviews">
-
-                    <div class="review">
-                        <div class="head-review">
-                            <img src="./images/user1.jpg" alt="user">
-                        </div>
-                        <div class="body-review">
-                            <div class="name-review">Nathan D.</div>
-                            <div class="place-review">Germany</div>
-                            <div class="rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half"></i>
+                    <table id="myTable">
+                        <tr>
+                          <th class="hide">ID</th>
+                          <th class="hide">Name</th>
+                        </tr>
+                        <tr>
+                          <td class="hide">3</td>
+                          <td><div class="review">
+                            <div class="head-review">
+                                <img src="./images/user1.jpg" alt="user">
                             </div>
-                            <div class="desc-review">Lorem ipsum dolor, sit amet consectetur rebates. Blinded through
-                                the offices of of electing the he takes him up out of them.</div>
-                        </div>
-                    </div>
-
-                    <div class="review">
-                        <div class="head-review">
-                            <img src="./images/user2.jpg" alt="user2">
-                        </div>
-                        <div class="body-review">
-                            <div class="name-review">Mary Will</div>
-                            <div class="place-review">Paris</div>
-                            <div class="rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                            <div class="body-review">
+                                <div class="name-review">Nathan D.</div>
+                                <div class="place-review">Germany</div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i> 
+                                </div>
+                                <div class="desc-review">Lorem ipsum dolor, sit amet consectetur rebates. Blinded through
+                                    the offices of of electing the he takes him up out of them.</div>
                             </div>
-                            <div class="desc-review">Lorem ipsum dolor, sit amet consectetur rebates. Blinded through
-                                the offices of of electing the he takes him up out of them.</div>
-                        </div>
-                    </div>
-
-                    <div class="review">
-                        <div class="head-review">
-                            <img src="./images/user3.jpg" alt="user3">
-                        </div>
-                        <div class="body-review">
-                            <div class="name-review">Kevin Tuck</div>
-                            <div class="place-review">New York</div>
-                            <div class="rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half"></i>
+                        </div></td>
+                        </tr>
+                        <tr>
+                          <td class="hide">4</td>
+                          <td><div class="review">
+                            <div class="head-review">
+                                <img src="./images/user2.jpg" alt="user2">
                             </div>
-                            <div class="desc-review">LLorem ipsum dolor, sit amet consectetur rebates. Blinded through
-                                the offices of of electing the he takes him up out of them.</div>
-                        </div>
-                    </div>
+                            <div class="body-review">
+                                <div class="name-review">Mary Will</div>
+                                <div class="place-review">Paris</div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="desc-review">Lorem ipsum dolor, sit amet consectetur rebates. Blinded through
+                                    the offices of of electing the he takes him up out of them.</div>
+                            </div>
+                        </div></td>
+                        </tr>
+                        <tr>
+                          <td class="hide">5</td>
+                          <td>  
+                            <div class="review">
+                                <div class="head-review">
+                                    <img src="./images/user3.jpg" alt="user3">
+                                </div>
+                                <div class="body-review">
+                                    <div class="name-review">Kevin Tuck</div>
+                                    <div class="place-review">New York</div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="desc-review">sit amet consectetur rebates. Blinded through
+                                        the offices of of electing the he takes him up out of them.</div>
+                                </div>
+                            </div>
+                         </td>
+                        </tr>
+                        <tr>
+                          <td class="hide" >4.5</td>
+                          <td>
+                            <div class="review">
+                                <div class="head-review">
+                                    <img src="./images/user4.jpg" alt="user3">
+                                </div>
+                                <div class="body-review">
+                                    <div class="name-review">Mit Patel</div>
+                                    <div class="place-review">New Delhi</div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half"></i>
+                                    </div>
+                                    <div class="desc-review">Lorem ipsum dolor, sit amet consectetur rebates. Blinded through
+                                        the offices of of electing the he takes him up out of them.</div>
+                                </div>
+                            </div>
+                          </td>
+                        </tr>
+                      
+                       
+                      </table>
+                    
+
+                    
+
+                 
 
                 </div>
 

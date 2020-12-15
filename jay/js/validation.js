@@ -68,29 +68,16 @@ function validateName() {
   
   }
   
-  // function validateMessage() {
-  //   var message = document.getElementById('contact-message').value;
-  //   var required = 30;
-  //   var left = required - message.length;
   
-  //   if (left > 0) {
-  //     producePrompt(left + ' more characters required','message-error','red');
-  //     return false;
-  //   }
-  
-  //   producePrompt('Valid', 'message-error', 'green');
-  //   return true;
-  
-  // }
   
   function validateForm() {
-    if (!validateName() || !validatePhone() || !validateEmail()/* || !validateMessage()*/) {
+    if (!validateName() || !validatePhone() || !validateEmail()) {
       jsShow('submit-error');
       producePrompt('Please fix errors to submit.', 'submit-error', 'red');
       setTimeout(function(){jsHide('submit-error');}, 2000);
     }
     else {
-  
+    
     }
   }
   
@@ -101,9 +88,6 @@ function validateName() {
   function jsHide(id) {
     document.getElementById(id).style.display = 'none';
   }
-  
-  
-  
   
   function producePrompt(message, promptLocation, color) {
   

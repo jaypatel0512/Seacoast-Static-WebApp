@@ -364,3 +364,25 @@ ul{
 
   /* footer end */
 }
+
+.hide {
+  visibility: hidden;
+}
+
+#btn {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-group button {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  background-color: var(--dark-color); 
+  color: white; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  font-size: large;
+}
